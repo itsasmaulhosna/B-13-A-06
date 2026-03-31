@@ -6,6 +6,7 @@ import Cards from './Components/Cards/Cards'
 import GetStarted from './Components/GetStarted/GetStarted'
 
 import Navbar from './Components/Navbar/Navbar'
+import Transparent from './Components/Transparent/Transparent'
 
 const getApiData =async()=>{
   const res=await fetch('/data.json')
@@ -42,7 +43,19 @@ function App() {
 
         <Cards dataPromise={dataPromise}></Cards>
         <GetStarted></GetStarted>
+        <Transparent></Transparent>
 
+<div className='bg-linear-to-r from-blue-700 to-purple-500 py-6 mt-10'>
+        <div className='container mx-auto text-center text-white'>
+          <h1 className='text-3xl text-white font-bold mt-8'>Ready to Transform Your Workflow?</h1>
+          <p className='text-gray-300 mt-4 text-lg'>Join thousands of professionals who are already using Digitools to work smarter.<br></br> Start your free trial today.</p>
+          <div className='flex gap-5 mt-7 justify-center mb-5'>
+            <button className='bg-white text-purple-700 font-bold py-2 px-4 rounded-full mt-4'>Explore Products</button>
+            <button className='bg-transparent border border-white text-white font-bold py-2 px-4 rounded-full mt-4'>View Pricing</button>
+          </div>
+          <p>14-day free trial • No credit card required • Cancel anytime</p>
+        </div>
+</div>
         
       
     </>

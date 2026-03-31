@@ -4,13 +4,13 @@ import packageImg from '../../assets/assets/package.png'
 import rokcketImg from '../../assets/assets/rocket.png'
 const GetStarted = () => {
     return (
-        <div className='bg-gray-200'>
+        <div className='bg-gray-200 pb-10'>
             <div className='container mx-auto mt-20 '>
                 <div className='text-center '>
                     <h2 className='text-3xl font-bold text-gray-800 pt-10 '>Get Started In 3 Steps</h2>
                     <p className='text-sm text-gray-500'>Start using premium digital tools in minutes, not hours.</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3'>
+                <div className='grid grid-cols-1 md:grid-cols-3 '>
                     <div className='text-center p-5 bg-white rounded-xl w-90 h-80 flex flex-col justify-center items-center mx-auto mt-10 relative'>
                         <div className='absolute top-3 right-4 w-10 h-10  rounded-full  bg-purple-600 text-white flex justify-center items-center font-bold'>
                             01
