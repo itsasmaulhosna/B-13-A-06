@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Card = ({card}) => {
+const Card = ({card,carts,setCarts}) => {
+    const [isBuy,setBuy]=useState(false)
+const handleBuyNow=()=>{
+    setCarts([...carts,card])
+    setBuy(true)
+}
     return (
         <div>
           <div className='bg-white rounded-3xl shadow-sm border border-gray-100 relative'>
@@ -51,8 +56,8 @@ const Card = ({card}) => {
           ))
         }
       </ul>
-      <button className='w-full bg-linear-to-r from-blue-700 to-purple-500 text-white py-3 rounded-full font-semibold hover:scale-105 transition duration-300'>
-        Get Started
+      <button onClick={handleBuyNow} className='w-full bg-linear-to-r from-blue-700 to-purple-500 text-white py-3 rounded-full font-semibold hover:scale-105 transition duration-300'>
+        {isBuy ? 'Added to Cart' : 'Buy Now'}
       </button>
 
 

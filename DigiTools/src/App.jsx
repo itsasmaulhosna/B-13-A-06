@@ -3,6 +3,8 @@
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Cards from './Components/Cards/Cards'
+import GetStarted from './Components/GetStarted/GetStarted'
+
 import Navbar from './Components/Navbar/Navbar'
 
 const getApiData =async()=>{
@@ -39,6 +41,8 @@ function App() {
         </div>
 
         <Cards dataPromise={dataPromise}></Cards>
+        <GetStarted></GetStarted>
+
         
       
     </>
