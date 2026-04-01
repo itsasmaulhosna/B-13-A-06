@@ -1,7 +1,7 @@
 import React from 'react';
-import userImg from '../../assets/assets/user.png'
-import packageImg from '../../assets/assets/package.png'
-import rokcketImg from '../../assets/assets/rocket.png'
+import userImg from '/assets/user.png'
+ import packageImg from '../../assets/assets/package.png'
+ import rokcketImg from '../../assets/assets/rocket.png'
 const GetStarted = () => {
     return (
         <div className='bg-gray-200 pb-10'>

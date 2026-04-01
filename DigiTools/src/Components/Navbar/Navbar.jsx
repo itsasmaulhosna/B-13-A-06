@@ -1,5 +1,5 @@
 import React from 'react';
-import cartImg from '../../assets/assets/products/shopping-cart.png';
+import cartImg from '/products/shopping-cart.png';
 const Navbar = ({carts}) => {
     return (
         <div className='border-b-2 border-gray-300 w-full mt-5 pb-4'>
