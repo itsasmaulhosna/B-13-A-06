@@ -1,6 +1,7 @@
 import React from 'react';
-import playImg from '../../assets/assets/Play.png'
-import bannerImg from '../../assets/assets/banner.png'
+import playImg from '/assets/Play.png'
+import bannerImg from '/assets/banner.png'
+
 const Banner = () => {
     return (
         <div className='container mx-auto mt-10'>
