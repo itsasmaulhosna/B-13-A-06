@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes in minutes with AI-powered suggestions and industry-specific templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "Cover letter builder"
+    ],
+    "icon": "../src/assets/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Career Booster Monthly",
+    "description": "Unlimited access to all resume, cover letter, and LinkedIn optimization tools with monthly updates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited resumes & cover letters",
+      "LinkedIn profile optimization",
+      "Real-time AI feedback",
+      "Interview preparation tools",
+      "Priority support"
+    ],
+    "icon": "../src/assets/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Job Application Pack",
+    "description": "Everything you need to apply confidently: resumes, cover letters, and follow-up templates.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ job-specific templates",
+      "Tailored cover letters",
+      "Thank you & follow-up emails",
+      "Application tracker",
+      "Job search strategy guide"
+    ],
+    "icon": "../src/assets/assets/products/camera_8775444 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Premium Annual Access",
+    "description": "Full access to all tools for an entire year with exclusive AI features and early updates.",
+    "price": 89,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": [
+      "Everything in Monthly plan",
+      "Advanced AI rewriting",
+      "Portfolio website builder",
+      "Interview question bank",
+      "1-year job guarantee support"
+    ],
+    "icon": "../src/assets/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Profile Makeover",
+    "description": "Transform your LinkedIn profile into a powerful job magnet with professional optimization.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Professional headline & summary",
+      "Experience section optimization",
+      "Skills & endorsement strategy",
+      "Profile banner design",
+      "Networking message templates"
+    ],
+    "icon": "../src/assets/assets/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Student Career Starter",
+    "description": "Specially designed for students and fresh graduates to build their first professional resume.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Student-friendly templates",
+      "No experience? No problem",
+      "Academic projects showcase",
+      "Internship & volunteer sections",
+      "Free career roadmap PDF"
+    ],
+    "icon": "../src/assets/assets/products/social-media.png"
+  }
+]

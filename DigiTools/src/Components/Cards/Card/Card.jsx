@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-
+import { toast } from 'react-toastify';
+import { IoMdCheckmark } from "react-icons/io";
 const Card = ({card,carts,setCarts}) => {
     const [isBuy,setBuy]=useState(false)
 const handleBuyNow=()=>{
     setCarts([...carts,card])
     setBuy(true)
+    toast.success(`${card.name} added to cart!`)
 }
     return (
         <div>
@@ -50,7 +52,7 @@ const handleBuyNow=()=>{
         {
           card.features.map((feature, index) => (
             <li key={index} className='flex items-center gap-2 text-gray-600'>
-              <span className='text-green-500'>✔</span>
+              <IoMdCheckmark className='text-green-500 text-xl' />
               <span>{feature}</span>
             </li>
           ))

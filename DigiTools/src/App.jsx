@@ -22,6 +22,7 @@ const [carts,setCarts]=useState([])
 
   return (
     <>
+    
       <Navbar carts={carts}></Navbar>
       <Banner></Banner>
       <div className='bg-linear-to-r from-purple-700 to-purple-500 py-12 mt-13'>
