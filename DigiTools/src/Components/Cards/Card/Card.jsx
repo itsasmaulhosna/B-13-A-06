@@ -58,8 +58,8 @@ const handleBuyNow=()=>{
           ))
         }
       </ul>
-      <button onClick={handleBuyNow} className='w-full bg-linear-to-r from-blue-700 to-purple-500 text-white py-3 rounded-full font-semibold hover:scale-105 transition duration-300'>
-        {isBuy ? 'Added to Cart' : 'Buy Now'}
+      <button onClick={handleBuyNow} disabled={isBuy}  className='w-full bg-linear-to-r from-blue-700 to-purple-500 text-white py-3 rounded-full font-semibold'>
+        {isBuy ? 'Add to cart ' : 'Buy Now'}
       </button>
 
 
