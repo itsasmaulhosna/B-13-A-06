@@ -1,8 +1,10 @@
 
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Cards from './Components/Cards/Cards'
+import Footer from './Components/Footer/Footer'
 import GetStarted from './Components/GetStarted/GetStarted'
 
 import Navbar from './Components/Navbar/Navbar'
@@ -16,11 +18,11 @@ const getApiData =async()=>{
 const dataPromise=getApiData()
 
 function App() {
-  
+const [carts,setCarts]=useState([])
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar carts={carts}></Navbar>
       <Banner></Banner>
       <div className='bg-linear-to-r from-purple-700 to-purple-500 py-12 mt-13'>
         <div className='container mx-auto  grid grid-cols-1 md:grid-cols-3 text-center'>
@@ -41,7 +43,7 @@ function App() {
           
         </div>
 
-        <Cards dataPromise={dataPromise}></Cards>
+        <Cards dataPromise={dataPromise} carts={carts} setCarts={setCarts}></Cards>
         <GetStarted></GetStarted>
         <Transparent></Transparent>
 
@@ -56,6 +58,7 @@ function App() {
           <p>14-day free trial • No credit card required • Cancel anytime</p>
         </div>
 </div>
+<Footer></Footer>
         
       
     </>

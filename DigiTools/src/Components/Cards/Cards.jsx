@@ -3,10 +3,10 @@ import Card from './Card/Card';
 import Carts from '../Carts/Carts';
 
 
-const Cards = ({ dataPromise }) => {
+const Cards = ({ dataPromise, carts, setCarts }) => {
     const cards=use(dataPromise)
     const [activeTab,setActiveTab]=useState('Products')
-    const [carts,setCarts]=useState([])
+    // const [carts,setCarts]=useState([])
     return (
         <div >
             <div className='container mx-auto mt-10 text-center'>
